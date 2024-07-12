@@ -1,0 +1,85 @@
+.generativeAi {
+  width: 389px;
+  position: relative;
+  font-size: var(--font-size-mid-9);
+  line-height: 18px;
+  font-weight: 500;
+  background: linear-gradient(transparent, transparent),
+    linear-gradient(135deg, #fff, #71717a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.utilityCreationBuysellTh {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.utilityCreationContainer1 {
+  width: 100%;
+}
+.utilityCreationContainer {
+  width: 463px;
+  position: absolute;
+  margin: 0 !important;
+  right: 5px;
+  bottom: -38.5px;
+  line-height: 24px;
+  background: linear-gradient(transparent, transparent),
+    linear-gradient(135deg, #fff, #71717a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.peerToPeerZeroKnowledgeVa {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.peerToPeerZeroKnowledgeContainer {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -62.5px;
+  left: 32px;
+  line-height: 24px;
+  background: linear-gradient(transparent, transparent),
+    linear-gradient(135deg, #fff, #71717a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.divMtAuto,
+.divOrder1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.divMtAuto {
+  padding: var(--padding-lgi) var(--padding-13xl);
+  position: relative;
+}
+.divOrder1 {
+  box-shadow: 0 0 0 transparent, 0 0 0 1px rgba(244, 244, 245, 0.1), 0 0 0#fff;
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.12),
+    rgba(85, 85, 85, 0.12)
+  );
+  overflow: hidden;
+  padding: 0 0 var(--padding-60xl);
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-sm-9);
+  font-family: var(--font-oxanium);
+}

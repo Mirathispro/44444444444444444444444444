@@ -1,0 +1,60 @@
+.nftPictureIcon {
+  height: 227.5px;
+  width: 262px;
+  position: relative;
+  border-radius: var(--br-mini);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  height: 15px;
+  width: 17px;
+  position: relative;
+}
+.favoriteSeparator {
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 31px;
+}
+.favoritesIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.favorites,
+.nftPic {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.favorites {
+  backdrop-filter: blur(20px);
+  border-radius: 0 var(--br-mini) 0 var(--br-mini);
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-3xl-7);
+  margin-left: -58px;
+}
+.nftPic {
+  width: 291px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  padding: 0 0 var(--padding-164xl-5) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-oxanium);
+}
